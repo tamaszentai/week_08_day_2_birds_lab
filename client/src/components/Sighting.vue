@@ -3,7 +3,7 @@
     <h2>{{ sighting.species }}</h2>
     <p>{{ sighting.location }} on {{ sighting.date|format }}</p>
 
-    <button>Delete Sighting</button>
+    <button @click="deleteSighting">Delete Sighting</button>
   </div>
 </template>
 
